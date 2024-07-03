@@ -1,0 +1,21 @@
+{
+  "name": "automationpanda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "cy": "npx cypress run --browser chrome --headed --spec \"cypress\\e2e\\HomePage.cy.js,cypress\\e2e\\ContactUsPage.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}

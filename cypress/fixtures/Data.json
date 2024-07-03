@@ -1,0 +1,22 @@
+{
+    "InvalidData": [{
+        
+    "Name": "John Wick",
+    "Email": "John123",
+    "Message": "What services you are offering to customer!"
+  }],
+  "SomeFieldEmptyData": [{
+        
+    "Name": " ",
+    "Email": "John123",
+    "Message": " "
+  }],
+  "ValidData": [{
+        
+    "Name": "John Wick",
+    "Email": "Johnwick123@yopmail.com",
+    "Message": "What services you are offering to customer!"
+  }]
+
+  }
+  
